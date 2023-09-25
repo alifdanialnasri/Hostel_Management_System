@@ -1,0 +1,14 @@
+//LATE NIGHT CHECKIN
+$latename = $_POST['latename'];
+$latestudid = $_POST['latestudid'];
+$latetype = $_POST['latetype'];
+$latephonenum = $_POST['latephonenum'];
+$lateplatenum = $_POST['lateplatenum'];
+$lateroomnum = $_POST['lateroomnum'];
+$lattime = $_POST['lattime'];
+$lateroomnum = $_POST['latereason'];
+
+
+
+$stmt = $conn->prepare("insert into latenight(latename,latestudid,latetype,latephonenum,lateplatenum,lateroomnum,lattime,latereason) values(?, ?, ?, ?, ?, ?,?,?)");
+    $stmt->bind_param("sssissss",$latename,$latestudid,$latetype,$latephonenum,$lateplatenum,$lateroomnum,$lattime,$latereason);

@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+    <html lang="en" >
+    <head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.1.9/css/unicons.css'><link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="IMG/HostelIcon.svg" >
+    
+<title>Login</title>
+
+    </head>
+    <body>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form action="https://wassap.my/60184619661">
+                    <h1>Developed by</h1>
+                    <div class="social-container">
+                        <img src="IMG/ThreeStooges.png" alt="ThreeStooges" width="200" height="200">
+                    </div>
+
+                    
+                        <button >Contact Us</button>
+
+
+                   
+                    
+                    
+                </form>
+            </div>
+            <div class="form-container sign-in-container">
+                <form action="loginfunc.php" method="POST">
+                    <h1>Sign in</h1>
+                    
+                    <input type="text" placeholder="Student ID" name="username"/>
+                    <input type="password" placeholder="Password" name="pass"/>
+                    <a href="https://www.gmi.edu.my/contact-us/">Forgot your password?</a>
+                    <button type="submit">Sign In</button>
+                </form>
+            </div>
+            <div class="overlay-container">
+                <div class="overlay">
+                    <div class="overlay-panel overlay-left">
+                        <h1>HostelHub</h1>
+                        <p>"Our project is dedicated to providing modern and efficient solutions for managing hostels, streamlining processes, and enhancing communication between residents and staff. We strive to create a user-friendly experience for all stakeholders and are committed to continuously improving our system to meet the evolving needs of the hostel community."</p>
+                        <button class="ghost" id="signIn" >Sign In</button>
+                    </div>
+                    <div class="overlay-panel overlay-right">
+                        <h1>Hello, Friend!</h1>
+                        <p>Welcome To <br>German Malaysian Institute <br> Hostel Management System</p>
+                        <button class="ghost" id="signUp">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+    <!-- partial -->
+    <script  src="./script.js"></script>
+
+    </body>
+    </html>
